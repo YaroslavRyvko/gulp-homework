@@ -1,0 +1,116 @@
+doctype html
+html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Document
+  link(rel='stylesheet', href='./css/main.min.css')
+  body 
+header
+  .header-helper
+    .header-top
+      .header-top-left
+        h1 DREAMSHARE
+      .header-top-right
+        a.login(href='#') Log in
+        a.signup(href='#') Sign up
+  .header-center
+    .header-center-title
+      | SHARE YOUR
+      | HOLIDAY DREAM
+    .header-center-text And find the perfect partner to fullfill it
+    .header-center-button
+      | Find your holiday partner
+main
+  section.steps
+    h1.steps-title How Dreamshare works?
+    .steps-of-3
+      .steps-block1
+        a.steps-block-button(href='#') STEP 1
+        h1.steps-block1-title Sed leo enim, condimentum
+        p.steps-block1-text
+          | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec
+          | rhoncus a leo sit amet facilisis.
+      .steps-block2
+        a.steps-block-button(href='#') STEP 2
+        h1.steps-block2-title Morbi velit risus
+        p.steps-block2-text
+          | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit
+          | amet porttitor est.
+      .steps-block3
+        a.steps-block-button(href='#') STEP 3
+        h1.steps-block3-title Sed leo enim, condimentum
+        p.steps-block3-text
+          | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec
+          | rhoncus a leo sit amet facilisis.
+  section.partner
+    h1.partner-title Meet a partner for your best holiday
+    .partner-of-4
+      .partner1
+        img.round(src='images/Partner1.png', alt='')
+        h1.partner1-name
+          | Bradley Hunter
+        p.partner1-info Based in Chicago. I love playing tennis and loud music.
+      .partner2
+        img.round(src='images/Partner2.png', alt='')
+        h1.partner2-name
+          | Marie Bennett
+        p.partner2-info Currently living in Colorado. Lover of art, languages and travelling.
+      .partner3
+        img.round(src='images/Partner3.png', alt='')
+        h1.partner3-name
+          | Diana Wells
+        p.partner3-info
+          | Living in Athens, Greece. I love black and white classics, chillout music
+          | and green tea.
+      .partner4
+        img.round(src='images/Partner4.png', alt='')
+        h1.partner4-name
+          | Christopher Pierce
+        p.partner4-info Star Wars fanatic. I have a persistent enthusiasm to create new things.
+    .center
+      a.partner-see-other(href='#') See other partners
+  section.discover
+    h1.discover-title Discover holiday activity ideas
+    .discover-of-3
+      .small-block1
+        h1 Sports and Activis
+      .small-block2
+        h1 Wellness and Health
+      .small-block3
+        h1
+          | Extreme Sports
+          | and Expeditions
+    .discover-of-2
+      .small-block4
+        h1 Games
+      .big-block1
+        h1 Culture and Education
+    .discover-of-2
+      .big-block2 Enjoyment and Relaxation
+      .small-block5 Travelling
+  section.create
+    h1.create-title.center
+      | Create your holiday activity
+    span.create-text.center Hi! What are your holiday interests?
+    .pass
+      form
+        input.enterpassword(type='pasword', placeholder='Enter your insterests')
+      form(action='')
+        input.button(type='submit', value='Search partners')
+footer
+  .footer-block
+    .footer-title DREAMSHARE
+    .footer-company
+      .footer-company-head Company
+      ul
+        li About
+        li Contact
+        li Press
+        li Blog
+        li.shroty Terms and Privacy
+        li Help
+    .footer-partners Partners
+    .footer-designed
+      h1.footer-designed-title DESIGNED BY
+      .footer-designed-logo
